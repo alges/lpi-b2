@@ -1,0 +1,17 @@
+# LPI-B² reproducibility requirements
+# Tested on Python 3.13.7
+#
+# Install:
+#   pip install -r requirements.txt
+#
+# CmdStan (the C++ backend for Stan) is installed automatically by cmdstanpy
+# on first run. No manual installation needed.
+
+cmdstanpy==1.2.5
+scikit-learn==1.6.1
+numpy==2.2.6
+pandas==2.2.3
+matplotlib==3.10.3
+scipy==1.15.3
+seaborn==0.13.2
+cleanlab==2.9.0

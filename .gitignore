@@ -1,0 +1,34 @@
+# Generated figures
+outputs/
+!outputs/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+
+# CmdStan compiled models
+*.hpp
+*.o
+*.d
+lpi_b2/models/*.exe
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor
+.vscode/
+.idea/
+
+# Intermediate files from Stan
+*.csv.lock
+cmdstan_diagnostics_*.txt

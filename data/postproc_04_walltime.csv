@@ -1,0 +1,11 @@
+block,n_inferences,time_per_inference_s,hardware_notes,total_time_min,source
+A1 Noise robustness (Design A),120,110.54515109999338,"RF, B=50, parallel_chains=4, n=1000 (estimated)",221.09030219998675,calibrated_from_measured
+A1 Design B (single-run sweep),30,110.54515109999338,"RF, B=50, 30 noise levels (estimated)",55.27257554999669,calibrated_from_measured
+A2 Anchor rate sweep,50,103.17547435999381,"RF, 10 rho levels × 5 seeds (estimated)",85.9795619666615,calibrated_from_measured
+A3-core Multi-arch (5 sep variants),375,117.91482783999294,"5 arch × 5 sep × 3 flip_y × 5 seeds, B=35 (estimated)",736.9676739999559,calibrated_from_measured
+A3-kappa HP sensitivity,36,110.54515109999338,"3 arch × 2 conditions × 6 seeds, B=50 (estimated)",66.32709065999603,calibrated_from_measured
+B1 Noise taxonomy (RF),90,110.54515109999338,3 phi × 4 sep × 6 seeds + B-variants (estimated),165.81772664999008,calibrated_from_measured
+B1-LR variant,60,92.12095924999448,"LR, B=20 and B=50 variants (estimated)",92.12095924999448,calibrated_from_measured
+B2 B-sensitivity (RF + LR),70,103.17547435999381,"B ∈ {5,10,15,25,50,75,100}, 5 seeds each (estimated)",120.37138675332612,calibrated_from_measured
+B3 Two-phase core (sep=1.5),126,30.0,7 phi × 6 seeds × 3 phases; documented ~63 min,63.0,documented
+"B3 Multisep (sep=1.0, 2.0)",84,110.54515109999338,2 additional sep levels × same protocol (estimated),154.76321153999072,calibrated_from_measured
