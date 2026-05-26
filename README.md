@@ -4,7 +4,7 @@ Code and pre-computed data to reproduce all experiments and figures in:
 
 > **"Latent Performance Indicator: a Bootstrap-Bayesian framework for  
 > architecture-relative evaluation under label noise"**  
-> A. Ehrenfeld, A. Egaña, G. Díaz, F. Navarro, G. García-Ros
+> A. Ehrenfeld, A. Egaña, G. Díaz, F. Navarro, J. F. Sánchez-Pérez, G. García-Ros
 
 ---
 
